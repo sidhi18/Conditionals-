@@ -13,7 +13,8 @@ public class Conditional_03_2 {
         double height = sc.nextDouble();
         double height2 = height/100;
         double bmi = weight/(height2*height2);
-        System.out.print("Your BMI is :"+bmi+" kg/m² square");
+       System.out.printf("Your BMI is: %.2f kg/m²\n", bmi);
+
         if (bmi<18.5){
             System.out.println("Underweight");
         } else if (bmi>=18.5) {
@@ -117,3 +118,4 @@ public class Conditional_03_2 {
 
     }
 }
+
